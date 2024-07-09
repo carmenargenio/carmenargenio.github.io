@@ -1,0 +1,124 @@
+//main: main.scss
+
+@media screen and (max-width: 472px) {
+    body{
+        min-height: 100vh;
+        
+    }
+    //Home-main content
+    .home-content{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        
+    }
+    
+    .home-text{
+        display: inline;
+        text-align: center;
+        margin-right: 0px;
+        padding-right: 0px;
+        max-width: 500px;
+        margin-bottom: 50px;
+
+        h1{
+            font-weight: 700;
+            font-size: 35px;
+        }
+        h2{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+    }
+    .home-image img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
+        border: 5px solid #D988B9 ;
+    }
+    
+    //Home-Skills
+    .skills-container{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 0;
+        margin: 38px 0px 0px 0px;
+        padding-bottom:20px ;
+
+        h2{
+            font-size: 30px;
+            
+        }
+    }
+
+    .row-skills-icon{
+        display: inline;
+        margin-bottom: 40px;
+
+        img{
+            width: 60px;
+
+          
+        }
+        .css{
+            width: 45px;
+        }
+    }
+    
+    //Home-contact
+    .con-title{
+        h2{
+            margin-top: 40px;
+            
+        }
+    }    
+    #contact-form{
+        
+
+        button{
+            margin-right:30%;
+            margin-left: 37%;
+            font-size: 14px;
+        }
+    }
+
+
+    //Footer
+    .footer{
+        position:relative;
+        margin-top: 20px;
+    }
+
+    //Curriculum
+    .container{
+       margin: 0;
+        grid-template-columns: repeat(1,1fr);
+        width: 50%;
+        min-width:0;
+        right: 20%;
+    }
+
+    .about .box{
+        flex-direction: column;
+
+        .year-company{
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+    }  
+
+    .gdpr{
+        font-size: 10px;
+    }
+}

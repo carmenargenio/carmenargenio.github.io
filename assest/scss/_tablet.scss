@@ -1,0 +1,106 @@
+//main: main.scss
+
+
+@media screen and (min-width: 473px) and (max-width: 1366px){
+    .home-content{
+        margin-left: 5%;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .home-text {
+        width: 560px;
+    }
+  .home-image img{
+    width: 300px;
+    height: 300px;
+  }
+    .skills-container{
+        width: 500px;
+        margin: auto;
+        border-radius: 20px;
+        padding-bottom: 20px;
+    }
+
+    .row-skills-icon{
+        img{
+            width: 60px;
+
+          
+        }
+        .css{
+            width: 45px;
+        }
+    }
+
+    #c-title{
+        margin-top: 30px;
+        padding-top: 10px;
+        text-align: center; 
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    #contact-form{
+        display: inline;
+        
+        input{
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-size: 14px;
+            padding: 16px 16px;
+            border-color: black;
+            margin-bottom: 20px;
+        
+            &:focus-within{
+                outline: none;
+                border-color: $primary;
+                border-width: 3px;
+            }
+        }
+        
+        textarea{
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-size: 14px;
+            padding: 16px 16px;
+            margin-bottom: 25px;
+            border-color: black;
+        
+            &:focus-within{
+                outline: none;
+                border-color: $primary;
+                border-width: 3px;
+            }
+        }
+        
+        button{
+            border-color: $primary;
+            border-radius: 20px;
+            background-color: #D988B9;
+            font-size: 16px;
+            margin-bottom: 10px ;
+            padding: 10px 18px;
+            display: flex;
+            margin-left: 41%;
+            
+            
+            &:hover{
+                opacity: 80%;
+                cursor: pointer;
+            }
+        }
+    }
+    .container{
+       
+        grid-template-columns: repeat(1,1fr);
+        width: 80%;
+        min-width:0;
+        left:5%;
+    }
+    .gdpr{
+        font-size: 12px;
+    }
+}
+   
